@@ -11,3 +11,10 @@ spec:
       ports:
         - containerPort: 27017
           name: mongodb-port
+  securityContext:
+    allowPrivilegeEscalation: false
+    capabilities:
+      drop:
+      - ALL
+    runAsNonRoot: false
+    runAsUser: 0

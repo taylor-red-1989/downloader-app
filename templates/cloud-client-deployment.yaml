@@ -18,3 +18,11 @@ spec:
   selector:
     matchLabels:
       app: cloudl-client
+  securityContext:
+    allowPrivilegeEscalation: false
+    capabilities:
+      drop:
+      - ALL
+    runAsNonRoot: false
+    runAsUser: 0
+
