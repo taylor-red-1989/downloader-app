@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  downloader-app:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-07-14T09:16:06.859373372Z"
+    description: A Helm chart for Kubernetes
+    digest: cf2de2fc2959b3d51c6061d57967df9202b78909ae5d79f41c33248c954815c5
+    name: downloader-app
+    type: application
+    urls:
+    - https://taylor-red-1989.github.io/downloader-app/downloader-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-07-14T09:16:06.858566863Z"
